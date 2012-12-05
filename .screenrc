@@ -1,0 +1,3 @@
+startup_message off
+defencoding utf8
+caption always '%{=B Wb}%y/%m/%d %c %{=B wb}%-w%{=B WR}[%n]%t%{=B wb}%+w'
