@@ -2,6 +2,6 @@
 base_dir=`dirname $0`
 umask 022
 
-cp ${base_dir}/.bashrc ~/
-cp ${base_dir}/.profile ~/
-cp ${base_dir}/.screenrc ~/
+ln -sf ${base_dir}/.bashrc ~/
+ln -sf ${base_dir}/.profile ~/
+ln -sf ${base_dir}/.screenrc ~/
