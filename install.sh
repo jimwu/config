@@ -6,3 +6,4 @@ ln -s ${base_dir}/.bash_profile ~/
 ln -s ${base_dir}/.bashrc ~/
 ln -s ${base_dir}/.profile ~/
 ln -s ${base_dir}/.screenrc ~/
+ln -s ${base_dir}/.inputrc ~/
