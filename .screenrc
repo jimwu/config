@@ -40,4 +40,4 @@ bindkey -k k7 copy                                      # F7  | Enter copy/scrol
 register t "^aA^aa^k^h"                                 #     | Goes with the F8 definition
 bindkey -k k8 process t                                 # F8  | Re-title a window
 
-caption always '%{= bw} %-w %{= cb} %n %t %{= bw} %+w %-21=%{= .m}%Y/%m/%d %D %0c'
+caption always '%{= bc} %-w %{= cb} %n %t %{= bc} %+w %-21=%{= .m}%Y/%m/%d %D %0c'
