@@ -11,3 +11,8 @@
         log = auto
 [push]
 	default = tracking
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
