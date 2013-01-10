@@ -4,7 +4,7 @@
 
 #
 export TERM=xterm-256color
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
