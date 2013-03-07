@@ -5,6 +5,7 @@
 #
 export TERM=xterm-256color
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export MYSQL_PS1="(u@h) [d]> "
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
