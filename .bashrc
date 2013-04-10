@@ -86,7 +86,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias grep='grep -G'
+alias grep='grep -G --color'
 alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
