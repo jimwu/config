@@ -8,3 +8,4 @@ ln -s ${base_dir}/.profile ~/
 ln -s ${base_dir}/.screenrc ~/
 ln -s ${base_dir}/.inputrc ~/
 ln -s ${base_dir}/.gitconfig ~/
+ln -s ${base_dir}/.tmux.conf ~/

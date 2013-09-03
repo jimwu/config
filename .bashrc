@@ -116,3 +116,7 @@ fi
 # Locale
 export LC_CTYPE=zh_TW.UTF-8
 export LANG=en_US.UTF-8
+
+# CVS
+export CVSROOT=":pserver:jimwu@cvs.skysoft.com.tw:/home/ncvs/"
+alias ccvs='cvs -d :pserver:jimwu@cvs.skysoft.com.tw:/home/ncvs/'
