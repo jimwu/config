@@ -12,6 +12,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias vi='vim'
+alias phpn='php -d error_reporting=E_ALL^E_NOTICE'
 
 # Locale
 export LC_CTYPE=zh_TW.UTF-8
@@ -20,3 +21,6 @@ export LANG=en_US.UTF-8
 # CVS
 export CVSROOT=":pserver:jimwu@cvs.skysoft.com.tw:/home/ncvs/"
 alias ccvs='cvs -d :pserver:jimwu@cvs.skysoft.com.tw:/home/ncvs/'
+
+# Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin
