@@ -10,7 +10,7 @@
         branch = auto
         log = auto
 [push]
-	default = tracking
+	default = simple
 [alias]
 	co = checkout
 	ci = commit

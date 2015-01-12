@@ -1,5 +1,5 @@
 export TERM=xterm-256color
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/net/account/users/jimwu/bin:/usr/local/bin:/usr/local/sbin:$PATH
 export PS1="\[\e[00;35m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m\]\[\e[00;33m\]\h\[\e[0m\]\[\e[00;37m\]:\[\e[0m\]\[\e[00;32m\]\w\[\e[0m\]\[\e[00;37m\]\$ \[\e[0m\]"
 
 # for tmux: export 256color
@@ -13,6 +13,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias vi='vim'
 alias phpn='php -d error_reporting=E_ALL^E_NOTICE'
+alias fetch='fetch --no-verify-peer'
 
 # Locale
 export LC_CTYPE=zh_TW.UTF-8
