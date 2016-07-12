@@ -6,14 +6,15 @@ export PS1="\[\e[00;35m\]\u\[\e[0m\]\[\e[00;37m\]@\[\e[0m\]\[\e[00;33m\]\h\[\e[0
 [ -n "$TMUX" ] && export TERM=screen-256color
 
 # aliases
-alias grep='grep -G --color'
+alias grep='grep -G'
 alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias vi='vim'
-alias phpn='php -d error_reporting=E_ALL^E_NOTICE'
+alias phpn='php -d error_reporting=E_ALL^E_NOTICE^E_STRICT'
 alias fetch='fetch --no-verify-peer'
+alias composer='php -d allow_url_fopen=1 ~/bin/composer.phar'
 
 # Locale
 export LC_CTYPE=zh_TW.UTF-8
