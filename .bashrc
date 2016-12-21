@@ -6,9 +6,8 @@ export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\
 [ -n "$TMUX" ] && export TERM=screen-256color
 
 # aliases
-is_bsd=$([ $(uname) = 'FreeBSD' ] && echo 1 || echo 0)
 alias grep='grep -G'
-$is_bad && alias ls='ls -G' || alias ls='ls --color'
+[ $(uname) = 'FreeBSD' ] && alias ls='ls -G' || alias ls='ls --color'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
