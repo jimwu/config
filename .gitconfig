@@ -17,3 +17,8 @@
 	st = status
 	br = branch
 	cp = cherry-pick
+	d = difftool
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
