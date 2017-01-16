@@ -7,7 +7,7 @@ export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\
 
 # aliases
 alias grep='grep -G'
-[ $(uname) = 'FreeBSD' ] && alias ls='ls -G' || alias ls='ls --color'
+[ $(uname) = 'Linux' ] && alias ls='ls --color' || alias ls='ls -G'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
