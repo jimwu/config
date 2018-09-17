@@ -13,14 +13,13 @@ alias l='ls -CF'
 alias vi='vim'
 alias phpn='php -d error_reporting=E_ALL^E_NOTICE^E_STRICT'
 alias fetch='fetch --no-verify-peer'
-alias pcf='php ~/bin/php-cs-fixer.phar'
 alias phpunit='vendor/bin/phpunit'
 alias sc="ls -d /net/tower-2/scribe/* | xargs -0 -d '\n' -n 1 basename"
 
 # Locale
 export LC_CTYPE=zh_TW.UTF-8
 export LANG=en_US.UTF-8
-
+export LESSCHARSET=UTF-8
 export PATH="$HOME/.yarn/bin:$PATH"
 
 source ~/.git-prompt.sh
