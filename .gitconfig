@@ -19,6 +19,7 @@
 	cp = cherry-pick
 	d = difftool
 	sw = switch
+	r = restore
 [diff]
 	tool = vimdiff
 [difftool]
