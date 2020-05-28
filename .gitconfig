@@ -18,6 +18,7 @@
 	br = branch
 	cp = cherry-pick
 	d = difftool
+	sw = switch
 [diff]
 	tool = vimdiff
 [difftool]
